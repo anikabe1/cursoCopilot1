@@ -38,6 +38,31 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    # ...existing activities...
+    "Soccer Match": {
+        "max_participants": 22,
+        "participants": []
+    },
+    "Tennis Clinic": {
+        "max_participants": 12,
+        "participants": []
+    },
+    "Painting Workshop": {
+        "max_participants": 15,
+        "participants": []
+    },
+    "Sculpture Class": {
+        "max_participants": 10,
+        "participants": []
+    },
+    "Chess Club": {
+        "max_participants": 20,
+        "participants": []
+    },
+    "Quiz Night": {
+        "max_participants": 30,
+        "participants": []
     }
 }
 
@@ -55,7 +80,7 @@ def get_activities():
 @app.post("/activities/{activity_name}/signup")
 def signup_for_activity(activity_name: str, email: str):
     """Sign up a student for an activity"""
-    # Validate activity exists
+    # Validate student is not already signed up
     if activity_name not in activities:
         raise HTTPException(status_code=404, detail="Activity not found")
 
