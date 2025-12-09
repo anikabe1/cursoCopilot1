@@ -34,42 +34,58 @@ activities = {
         "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
     },
     "Gym Class": {
-        "description": "Physical education and sports activities",
+        "description": "Gym education and fitness activities",
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Soccer Match": {
-        "max_participants": 22,
-        "participants": []
+        "description": "Soccer education and activities",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Tennis Clinic": {
-        "max_participants": 12,
-        "participants": []
+        "description": "Tennis education and activities",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Painting Workshop": {
-        "max_participants": 15,
-        "participants": []
+        "description": "Painting education and activities",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Sculpture Class": {
-        "max_participants": 10,
-        "participants": []
+        "description": "Sculpture education and activities",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Chess Club": {
-        "max_participants": 20,
-        "participants": []
+        "description": "Learn strategies and compete in chess tournaments",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
     "Quiz Night": {
+        "description": "Quizz night",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
-        "participants": []
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Basketball Tournament": {
-        "max_participants": 16,
-        "participants": []
+        "description": "Basketball education and tournaments",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Poetry Reading": {
-        "max_participants": 25,
-        "participants": []
+        "description": "Poetry education and reading  activities",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     }
 }
 
