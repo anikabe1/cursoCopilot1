@@ -60,8 +60,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (response.ok) {
         messageDiv.textContent = result.message;
-        messageDiv.className = "success";
+        messageDiv.className = "message success";
         signupForm.reset();
+          // Refresh activities list so availability and participants update
+        fetchActivities();
       } else {
         messageDiv.textContent = result.detail || "An error occurred";
         messageDiv.className = "error";
