@@ -62,6 +62,14 @@ activities = {
     "Quiz Night": {
         "max_participants": 30,
         "participants": []
+    },
+    "Basketball Tournament": {
+        "max_participants": 16,
+        "participants": []
+    },
+    "Poetry Reading": {
+        "max_participants": 25,
+        "participants": []
     }
 }
 
