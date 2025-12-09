@@ -39,7 +39,6 @@ activities = {
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
-    # ...existing activities...
     "Soccer Match": {
         "max_participants": 22,
         "participants": []
